@@ -1364,15 +1364,16 @@ main{
     border-width: 0 10px 10px 0px;
     border-color: transparent #3c8df3 transparent transparent; /* Adjust color as needed */
 }
-
 /* Hover effect with animation */
-.box-service:hover::before,
 .box-service:hover::after {
     width: 30px; /* Adjust the size of the triangles on hover */
     height: 200px; /* Adjust the size of the triangles on hover */
     filter: blur(1); 
 }
-
+.box-service:hover .svg {
+  transform: scale(1.20);
+  transition: transform 0.3s ease; /* Adjust the duration and easing function as needed */
+}
   
   .box-service:hover {
     transform: scale(1.06) ;
@@ -1455,6 +1456,7 @@ font-family: Georgia, 'Times New Roman', Times, serif;
   width: 100vw;
   height: 100vh;
   z-index: 0;
+  overflow: hidden;
 
 }
 /* canvas */
