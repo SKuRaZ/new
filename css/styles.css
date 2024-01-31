@@ -10,6 +10,8 @@
 }
 body{
   background-color: #222;
+  font-family: 'Poppins', sans-serif;
+
 }
 
 .hero-color {
@@ -555,7 +557,8 @@ main-1 {
 }
 
 .suraz {
-  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 15px;
   font-weight: 100;
   opacity: 0.8;
 }
@@ -573,12 +576,14 @@ main-1 {
 }
 
 .main-text-2 {
+  /* font-family: 'Poppins', sans-serif; */
   padding-top: 20px;
   font-size: 17px;
   font-weight: 300;
   width: auto;
   line-height: 30px;
   text-align: justify;
+  opacity: 0.8;
 }
 
 span {
@@ -1300,7 +1305,7 @@ button-main2{
 
 /* service  */
 main{
-    padding: 70px 6%;
+    padding: 70px 7%;
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
     /* gap: 30px; */
@@ -1309,7 +1314,8 @@ main{
     align-items: center;
     justify-content: center;
     place-items: center; 
-    background-color: #a6a1a1;
+    font-family: 'Poppins' , sans-serif;
+    background-color: #fff;
 }
 .svg{
     padding: 10px;
