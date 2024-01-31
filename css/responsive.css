@@ -303,7 +303,7 @@
         font-family: 'Anton', sans-serif;
         letter-spacing: 5px;
         z-index: 3;
-        text-shadow: 3px 3px 7px #b59eee;
+        text-shadow: 3px 3px 7px #000;
       
       }
       .main-text-2 {
@@ -334,7 +334,7 @@
       }
       .main-text {
         font-size: 60px;
-        text-shadow: 3px 3px 7px #b59eee;
+        text-shadow: 3px 3px 7px #000;
       
       }
       .main-text-2 {
@@ -361,7 +361,7 @@
       .main-text {
 
         font-size: 55px;
-        text-shadow: 3px 3px 7px #b59eee;
+        text-shadow: 3px 3px 7px #000;
       
       }
       .main-text-2 {
@@ -395,7 +395,7 @@
   
     .main-text {
       font-size: 50px;
-      text-shadow: 3px 3px 7px #b59eee;
+      text-shadow: 3px 3px 7px #000;
     }
   
     .main-text-2 {
